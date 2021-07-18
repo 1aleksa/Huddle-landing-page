@@ -40,6 +40,11 @@ footer {
   margin-top: 10px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 /*Class selectors */
 
 .logo {
@@ -79,7 +84,7 @@ footer {
 
 @media all and (max-width: 400px) {
   body {
-    width: 375px;
+    width: 100%;
     background-image: url(images/bg-mobile.svg);
     background-repeat: no-repeat;
     height: 800px;
@@ -99,9 +104,9 @@ footer {
   }
   .logo {
     height: 20px;
-    max-width: 295px;
     margin-left: 40px;
     margin-top: 40px;
+    width: auto;
   }
   .top-container {
     display: flex;
@@ -112,7 +117,7 @@ footer {
     text-align: center;
   }
   .left-part {
-    width: 295px;
+    width: 100%;
   }
   .right-part {
     margin-left: 0;
